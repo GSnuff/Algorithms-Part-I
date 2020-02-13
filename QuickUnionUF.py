@@ -23,4 +23,10 @@ class QuickUnionUF:
         j = self.__root(q)
         self.id[i] = j
 
+class QuickUnionUFModification:
+    def __init__(self,num=0):
+        self.num = num
+        self.id = [i for i in range(num)]
+        self.rootID = [1]*num
+
 
