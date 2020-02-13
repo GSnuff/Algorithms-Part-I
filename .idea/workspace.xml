@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47348f9d-72c4-45df-8aad-2befa326cbdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickUnionModification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickUnionUF.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuickUnionUF.py" afterDir="false" />
     </list>
@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581371472516</updated>
     </task>
+    <task id="LOCAL-00001" summary="First stage of designing algorithm">
+      <created>1581631268547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581631268547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,10 +117,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First stage of designing algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="First stage of designing algorithm" />
   </component>
 </project>
