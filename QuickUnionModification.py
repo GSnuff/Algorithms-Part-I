@@ -15,6 +15,7 @@ class QuickUnionUFModification:
 
     def find(self, i):
         return
+
     def union(self, p, q):
         i = self.__root(p)
         j = self.__root(q)
@@ -26,3 +27,4 @@ class QuickUnionUFModification:
         else:
             self.id[j] = i
             self.sz[i] += self.sz[j]
+

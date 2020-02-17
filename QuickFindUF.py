@@ -22,16 +22,3 @@ class QuickFindUF:
         for i in range(self.num):
             if self.id[i] == pid:
                 self.id[i] = qid
-
-
-vlad = QuickFindUF(5)
-print(vlad.id)
-
-vlad.union(4,3)
-print(vlad.id)
-
-vlad.union(3,2)
-print(vlad.id)
-
-vlad.union(2,3)
-print(vlad.id)
