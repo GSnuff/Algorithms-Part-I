@@ -6,12 +6,15 @@ class QuickUnionUFModification:
 
     def __root(self, i):
         while i != self.id[i]:
+            self.id[i] = self.id[self.id[i]]
             i = self.id[i]
         return i
 
     def connected(self, p, q):
         return self.__root(p) == self.__root(q)
 
+    def find(self, i):
+        return
     def union(self, p, q):
         i = self.__root(p)
         j = self.__root(q)
