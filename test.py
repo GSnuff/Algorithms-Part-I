@@ -24,7 +24,7 @@ print(test1.id)
 test2 = qum.QuickUnionUFModification(10000)
 
 print(test2.id)
-
+print("1")
 for i in range(1000):
     test2.union(i, i + 1)
 
